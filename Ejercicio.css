@@ -1,0 +1,36 @@
+.cuadrado {
+    display: block;
+    border: 2px solid rgb(5, 2, 0);
+    width: 200px;
+    height: 200px;
+}
+.circulo{
+    width: 200px;
+    height: 200px;
+    border: 2px solid rgb(5, 2, 0);
+    border-radius: 50%;
+    margin: 25px;
+}
+.triangulo{
+    width: 0;
+    height: 0;
+    border-left:100px solid transparent;
+    border-right: 100px solid transparent;
+    border-bottom: 100px solid rgb(98, 132, 196);
+}
+.rombo{
+    margin: 50px;
+    display: block;
+    border: 2px solid rgb(5, 2, 0);
+    width: 200px;
+    height: 200px;
+    transform: rotate(50deg);
+}
+.luna{
+    width: 200px;
+    height: 200px; 
+    margin-bottom: 150px;
+    border-radius: 50%;
+    box-shadow: 50px 20px rgb(37, 151, 167);
+
+}
